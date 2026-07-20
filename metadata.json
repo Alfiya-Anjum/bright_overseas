@@ -1,0 +1,6 @@
+{
+  "name": "Bright Overseas - Premium Indian Food Exports",
+  "description": "An interactive, cinematic product showcase and global logistics platform for Bright Overseas, a leading exporter of premium rice, spices, pulses, and fresh produce from Bidar, Karnataka, India.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
