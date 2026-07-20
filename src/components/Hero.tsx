@@ -45,23 +45,15 @@ export default function Hero() {
           filter: `blur(${blurValue}px)`,
         }}
       >
-        <video
-          autoPlay
-          loop
-          muted
-          playsInline
-          className="w-full h-full object-cover opacity-60"
-          poster="https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&q=80&w=1920"
-        >
-          <source 
-            src="https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c054273b98f9067b0c0f437c152a7d15&profile_id=139&oauth2_token_id=57447761" 
-            type="video/mp4" 
-          />
-          <source 
-            src="https://cdn.pixabay.com/video/2019/04/16/22917-331580190_large.mp4" 
-            type="video/mp4" 
-          />
-        </video>
+<video
+  autoPlay
+  loop
+  muted
+  playsInline
+  className="w-full h-full object-cover opacity-60"
+>
+  <source src="/videos/ship.mp4" type="video/mp4" />
+</video>
         {/* Apple-style gradient vignette overlay */}
         <div className="absolute inset-0 bg-gradient-to-t from-[#07111E] via-transparent to-[#07111E]/40" />
         <div className="absolute inset-0 bg-gradient-to-r from-[#07111E]/50 via-transparent to-[#07111E]/50" />
